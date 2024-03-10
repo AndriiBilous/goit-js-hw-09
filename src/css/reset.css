@@ -33,3 +33,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.navigation{
+  display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 8px 16px;
+    width: 86px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 250ms linear;
+}
+
+.navigation:hover{
+  transform: scale(1.15);
+}
